@@ -196,6 +196,11 @@ no_of_decoder_layers = 12  # Deeper model
 - WandB
 - CUDA-capable GPU (recommended)
 
+## Model Resources
+
+- **Hugging Face Model**: [YuvrajSingh9886/SmolTransformer](https://huggingface.co/YuvrajSingh9886/SmolTransformer)
+- **Training Report**: [Weights & Biases Report](https://wandb.ai/rentio/Translation/reports/Translation--VmlldzoxMzY3OTg3MQ?accessToken=3hspzhfiyo1ekagen3o0ly0nmuqhhs5jzfpno9vb0oei2rwyum0hsgdrmfjqsycg)
+
 ## License
 
 This project is open source and available under the MIT License.
