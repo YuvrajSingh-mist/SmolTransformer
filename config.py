@@ -46,7 +46,7 @@ def get_args():
     parser.add_argument('--gradient_accumulation_steps', type=int, default=None, help='Gradient accumulation steps (auto-calculated if None)')
     
     # HuggingFace Token
-    parser.add_argument('--hf_token', type=str, default='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', help='Hugging Face token')
+    parser.add_argument('--hf_token', type=str, default='', help='Hugging Face token')
     
     return parser.parse_args()
 
@@ -95,7 +95,7 @@ class ModelArgs:
     gradient_accumulation_steps: int = None
     
     # HuggingFace Token
-    hf_token: str = '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'
+    hf_token: str = ''
     
     def __post_init__(self):
         """Calculate derived parameters"""

@@ -19,7 +19,7 @@ from liger_kernel.transformers import LigerFusedLinearCrossEntropyLoss
 
 
 
-TOKEN = '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'
+TOKEN = ''
 
 def load_datasets(token, sample_size=None):
     """Load the datasets with optional sampling for faster analysis"""
