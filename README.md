@@ -208,16 +208,3 @@ This project is open source and available under the MIT License.
 ## Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{smoltransformer2024,
-  title={SmolTransformer: A Compact Encoder-Decoder Transformer Implementation},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/SmolTransformer}
-}
-```
